@@ -1,29 +1,27 @@
 import React from 'react'
+import DocumentTitle from 'react-document-title'
 import { Link } from 'react-router'
 import get from 'lodash/get'
-import DocumentTitle from 'react-document-title'
-import { prefixLink } from 'gatsby-helpers'
-import { rhythm } from 'utils/typography'
-import include from 'underscore.string/include'
-import Bio from 'components/Bio'
+import typography from '../blog-typography'
+const rhythm = typography.rhythm
+const profilePic = require('../images/kyle-round-small-pantheon.jpg')
 
-class BlogIndex extends React.Component {
+class BlogIndexRoute extends React.Component {
   render () {
-    const pageLinks = []
-    const posts = get(this, 'props.data.allMarkdown.edges')
-    posts.forEach((post) => {
-      if (post.node.path !== '/404/') {
-        const title = get(post, 'node.frontmatter.title') || post.node.path
-        pageLinks.push(
+    const posts = this.props.data.allMarkdown.edges
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+
+    const pageLinks = posts.map((post) => {
+      if (post.node.frontmatter.draft !== true) {
+        return (
           <li
             key={post.node.path}
-            style={{
-              marginBottom: rhythm(1/4),
-            }}
           >
             <Link
-              style={{boxShadow: 'none'}}
-              to={prefixLink(post.node.path)}
+              style={{
+                textDecoration: 'none',
+              }}
+              to={post.node.path}
             >
               {post.node.frontmatter.title}
             </Link>
@@ -33,9 +31,26 @@ class BlogIndex extends React.Component {
     })
 
     return (
-      <DocumentTitle title={get(this, 'props.data.site.siteMetadata.title')}>
+      <DocumentTitle title={siteTitle}>
         <div>
-          <Bio />
+          <p
+            style={{
+              marginBottom: rhythm(2.5),
+            }}
+          >
+            <img
+              src={profilePic}
+              style={{
+                float: 'left',
+                marginRight: rhythm(1/4),
+                marginBottom: 0,
+                width: rhythm(2),
+                height: rhythm(2),
+              }}
+            />
+            Written by <strong>{this.props.data.site.siteMetadata.author}</strong> who lives and works
+            in San Francisco building useful things. You should <a href="https://twitter.com/kylemathews">follow him on Twitter</a>
+          </p>
           <ul>
             {pageLinks}
           </ul>
@@ -45,29 +60,26 @@ class BlogIndex extends React.Component {
   }
 }
 
-BlogIndex.propTypes = {
-  route: React.PropTypes.object,
-}
-
-export default BlogIndex
+export default BlogIndexRoute
 
 export const pageQuery = `
-{
-  site {
-    buildTime
-    siteMetadata {
-      title
+  {
+    site {
+      siteMetadata {
+        title
+        author
+      }
     }
-  }
-  allMarkdown(first: 2000) {
-    edges {
-      node {
-        path
-        frontmatter {
-          title
+    allMarkdown(first: 2000) {
+      edges {
+        node {
+          path
+          frontmatter {
+            title
+            draft
+          }
         }
       }
     }
   }
-}
 `

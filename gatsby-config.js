@@ -1,6 +1,6 @@
 const config = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
+    title: 'Bricolage',
     author: 'Kyle Mathews',
     homeCity: 'San Francisco',
   },

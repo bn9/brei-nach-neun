@@ -1,73 +1,72 @@
 import React from 'react'
 import { Link } from 'react-router'
+import typography from '../blog-typography'
 import { Container } from 'react-responsive-grid'
-import { prefixLink } from 'gatsby-helpers'
-import { rhythm, adjustFontSizeToMSValue } from 'utils/typography'
+import DocumentTitle from 'react-document-title'
+const rhythm = typography.rhythm
+const scale = typography.scale
+import includes from 'lodash/includes'
+import '../styles/zenburn.css'
+import 'typeface-alegreya'
+import 'typeface-alegreya-sans'
 
-class Template extends React.Component {
+class Wrapper extends React.Component {
   render () {
-    const { location, children } = this.props
     let header
-    if (location.pathname === prefixLink('/')) {
+    // Check if the location is either the front page or a tags page.
+    // If so, use a big header, otherwise use a smaller one.
+    if (includes(['/', '/tags/'], this.props.location.pathname) ||
+        includes(this.props.location.pathname, '/tags/')
+       ) {
       header = (
-        <h1
+        <Link
           style={{
-            ...adjustFontSizeToMSValue(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            textDecoration: 'none',
+            boxShadow: 'none',
+            color: 'inherit',
           }}
+          to="/"
         >
-          <Link
+          <h1
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
             }}
-            to={prefixLink('/')}
           >
-            {'TODO insert blog title here from query'}
-          </Link>
-        </h1>
+            Bricolage
+          </h1>
+        </Link>
       )
     } else {
       header = (
-        <h3
+        <Link
           style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
+            textDecoration: 'none',
+            boxShadow: 'none',
+            color: 'inherit',
           }}
+          to="/"
         >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={prefixLink('/')}
-          >
-            {'insert blog title here'}
-          </Link>
-        </h3>
+          <h3>Bricolage</h3>
+        </Link>
       )
     }
     return (
-      <Container
-        style={{
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
-        }}
-      >
-        {header}
-        {children}
-      </Container>
+      <DocumentTitle title="Bricolage">
+        <Container
+          style={{
+            padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
+            maxWidth: 750,
+          }}
+        >
+          <div>
+            {header}
+          </div>
+          {this.props.children}
+        </Container>
+      </DocumentTitle>
     )
   }
 }
 
-Template.propTypes = {
-  children: React.PropTypes.any,
-  location: React.PropTypes.object,
-  route: React.PropTypes.object,
-}
-
-export default Template
+export default Wrapper
