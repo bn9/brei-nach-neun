@@ -1,6 +1,7 @@
-blog
-====
+# gatsby-starter-default
+The default Gatsby starter
 
-my blog!
-
-Visit the actual site at http://bricolage.io
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-example-site
+```

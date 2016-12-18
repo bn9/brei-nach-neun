@@ -1,0 +1,62 @@
+{
+  "site": {
+    "id": "562",
+    "name": "Brei Nach Neun",
+    "locales": [
+      "de"
+    ],
+    "themeHue": 204,
+    "domain": null,
+    "internalDomain": "breinachneun.admin.datocms.com",
+    "noIndex": false,
+    "globalSeo": null,
+    "favicon": null
+  },
+  "start": {
+    "id": "25069",
+    "itemType": "start",
+    "updatedAt": "2016-12-18T09:13:58.258Z",
+    "seoSettings": null,
+    "highlightedProjects": [],
+    "body": "<p><strong><span>Kinderladen \"Brei nach Neun e.V.\"</span></strong></p><p>Leuthener Straße 8 - 10829 Berlin Schöneberg </p><p>Wir betreuen momentan 17 Kinder von 1,5 Jahren bis zum Schulanfang in einer altersgemischten Gruppe.</p><p>Neben den drei engagierten Erzieherinnen haben wir eine Hauswirtschaftlerin, die uns im Kinderladenalltag tatkräftig unterstützt. Dadurch sind wir als Eltern von Koch- und Putzdiensten weitestgehend befreit.</p><p>Wir suchen immer wieder freundliche, zuverlässige und fröhliche PraktikantInnen. Bei Interesse einfach gegen 10.00 Uhr im Kinderladen anrufen. Wir freuen uns!</p>",
+    "headline": "Homepage"
+  },
+  "impressum": {
+    "id": "25070",
+    "itemType": "impressum",
+    "updatedAt": "2016-12-18T12:24:48.613Z",
+    "address": "<p><strong>EKT Brei nach Neun e.V.</strong></p><p>Leuthener Straße 8<br>10829 Berlin<br>Tel. 030 - 782 83 19<br></p>",
+    "map": {
+      "latitude": 52.48087839999999,
+      "longitude": 13.362836499999958
+    },
+    "phone": null,
+    "mail": null
+  },
+  "pages": {
+    "22972": {
+      "title": "Der Kinderladen",
+      "slug": "der-kinderladen"
+    },
+    "23121": {
+      "title": "Das Team",
+      "slug": "das-team"
+    },
+    "23122": {
+      "title": "Die Räumlichkeiten",
+      "slug": "die-raeumlichkeiten"
+    },
+    "23123": {
+      "title": "Konzept",
+      "slug": "konzept"
+    },
+    "23124": {
+      "title": "Tagesablauf",
+      "slug": "tagesablauf"
+    },
+    "23125": {
+      "title": "Elternmitarbeit",
+      "slug": "elternmitarbeit"
+    }
+  }
+}

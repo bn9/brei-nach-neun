@@ -1,0 +1,35 @@
+.link {
+	font-size: 0.85em;
+	font-weight: bold;
+	position: relative;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.link:hover,
+.link:focus {
+	color: #fff;
+}
+
+.link--faded {
+	color: #4f4f64;
+}
+
+.link--faded:hover,
+.link--faded:focus {
+	color: #5c5edc;
+}
+
+.link--social {
+	font-size: 1.5em;
+	margin: 0 0.75em;
+}
+
+.text-hidden {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	color: transparent;
+}
