@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import AnimatedTitle from 'components/AnimatedTitle';
+import styles from './styles.css';
 
 const Page = (props) => {
 		const { children, open } = props
@@ -21,13 +22,8 @@ const Page = (props) => {
 					<Link to="/"><AnimatedTitle/></Link>
 				</header>
 				<span
-					style={{
-						padding:'60px 120px',
-						position:'absolute',
-						background:'#ffffff'
-					}}
+					className="page-wrapper"
 				>
-
 					{children}
 				</span>
 			</section>

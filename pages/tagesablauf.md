@@ -4,8 +4,6 @@ title: Tagesablauf
 slug: tagesablauf
 ---
 
-**Tagesablauf**
-
 Im Tagesablauf finden sich die Grundgedanken unserer pädagogischen Arbeit in allen Bereichen mehr oder weniger offensichtlich wieder. Die Kinder werden von den Erzieherinnen freundlich und individuell empfangen.
 
 Der Abschied von den Eltern richtet sich nach den Bedürfnissen des Kindes. Die Erzieherinnen unterstützen die Kinder beim Abschiednehmen, nehmen sie auf den Arm, gehen mit zur Tür oder winken am Fenster.

@@ -2,19 +2,30 @@
 
 * { font-family: 'Quicksand', sans-serif; }
 p { stroke: #F8B195; }
-h1,h2,h3,h4,h5,h6 { 
+h1,h2,h3,h4,h5,h6,a { 
 	font-family: 'Quicksand', sans-serif;
-
 	color: #C06C84; }
+a{
+	font-weight:900;
+	text-decoration:none;
+}
 h1{
-		font-weight:500;
+	text-align: center;
+	font-weight:500;
+	margin-bottom:48px;
 }
 p { 
+	max-width:800px;
+	margin:0 auto;
 	color:#6C5B7B;
+	text-align: justify;
 }
 ul,li{
 	list-style:none;
 	color:#84b5bd;
+}
+img{
+	margin-bottom:0;
 }
 /* 
 	#84b5bd

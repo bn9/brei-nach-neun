@@ -2,13 +2,14 @@ var fs = require('fs');
 var request = require('request');
 
 module.exports = (dato, root) => {
-  const pages = {};
+  const pages = {photos:{title:'Photos',slug:'photos'}};
   dato.pages.map( page => 
     Object.assign(
       pages,
       {[`${page.id}`]:{
         title:page.title,
-        slug:page.slug
+        slug:page.slug,
+        background:page.background.toMap()
       }})
   )
   root.createDataFile(
@@ -21,6 +22,51 @@ module.exports = (dato, root) => {
       pages: pages 
     }
     );
+  dato.pages.forEach( page => {
+    root.createPost(
+      `./pages/${page.slug}.md`,
+      'yaml',
+      {
+        frontmatter: {
+          id:page.id,
+          title:page.title,
+          slug:page.slug
+        },
+        content: page.body
+      }
+    )
+  })
+  const photos = {}
+  dato.photos.forEach( img => {
+    Object.assign(
+      photos,
+      {
+        [`${img.id}`]:img.toMap()
+      }
+    )
+  })
+  const backgrounds = {}
+  dato.backgrounds.forEach( img => {
+    Object.assign(
+      backgrounds,
+      {
+        [`${img.id}`]:img.toMap()
+      }
+    )
+  })
+  root.createDataFile(
+    'pages/_photos.json',
+    'json',
+    photos
+  )
+  root.createDataFile(
+    'pages/_backgrounds.json',
+    'json',
+    backgrounds
+  )
+};
+
+
 
   // dato.singleInstanceItemTypes.forEach(itemType => {
   //   const item = dato.itemsOfType(itemType)[0];
@@ -38,18 +84,3 @@ module.exports = (dato, root) => {
   // // });
   // let pages;
   // dato.pages.map( page => Object.assign(pages,{slug:page.slug}))
-
-  dato.pages.forEach( page => {
-    root.createPost(
-        `./pages/${page.slug}.md`,
-        'yaml',
-        {
-          frontmatter: {
-            id:page.id,
-            title:page.title,
-            slug:page.slug
-          },
-          content: page.body}
-    )
-  })
-};

@@ -4,8 +4,8 @@ title: Konzept
 slug: konzept
 ---
 
-**Schwerpunkte unserer pädagogischen Arbeit
-**
+**Schwerpunkte unserer pädagogischen Arbeit**
+
 Der Senat hat 2003 einen Entwurf für das Berliner Bildungsprogramm vorgestellt. Dieser soll die pädagogischen Einrichtungen als Bildungseinrichtung stärken und uns Erzieherinnen in unserer pädagogischen Arbeit unterstützen. Wir Erzieherinnen haben uns mit dem Bildungsprogramm vertraut gemacht und es gibt uns eine Fülle alltagspraktischer Anregungen. Unser Alltag steckt voller Bildungsanlässe, es kommt nur darauf an, sie zu sehen, aufzugreifen, zu entfalten, zu vertiefen und umzusetzen. Seit August 2006 werden für jedes Kind Sprachlerntagebücher angelegt. Das Sprachlerntagebuch wird das Kind während seiner gesamten Zeit, die es bei uns im Kinderladen verbringt, begleiten und sich von Jahr zu Jahr mit Eintragungen der Erzieherinnen und des Kindes füllen. Wichtig ist dabei das gemeinsame Dokumentieren mit den Kindern. Das Sprachlerntagebuch ist den Eltern und den Kindern jederzeit zugänglich und es kann darin geblättert und gestöbert werden.
 
 Die Kinder sollen Spaß und Freude haben und sich geborgen fühlen. Daher schaffen wir eine Atmosphäre, in der sich die Kinder angenommen fühlen und bieten Zeit und Raum für offene und ehrliche Gespräche. Die Kinder erfahren den Kinderladen als Ort, an dem sie Kind sein können und spielerisch und selbstständig handeln und sich erproben können.
