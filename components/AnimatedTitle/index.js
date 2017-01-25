@@ -66,12 +66,18 @@ class AnimatedTitle extends React.Component{
 		// />
 		// 1=gold, 2=red, 3=lila, 4=darklila, 5=cyan
 		return(
-			<Svg {...this.props} viewBox="0 0 1336 200" className="letters letters--effect-1">
+			<svg 
+				style={{maxWidth: 'calc(1336px/2.5)',maxHeight:'calc(200px/2.5)'}} 
+				{...this.props} 
+				viewBox="0 0 1336 200" 
+				className="letters letters--effect-1"
+			>
 				{ letters.map( (item,i) => (
 					<g key={i} className={`letter letter--${i+1}${item.className?' '+item.className:''}`}>
 						<g className="letter__part">
 							{ item['c'].map(( color, i ) => 
 								<Path
+									fill="none"
 									transform={typeof item.t != "undefined"?item.t:''}
 									key={i}
 									color={color}
@@ -82,7 +88,7 @@ class AnimatedTitle extends React.Component{
 						</g>
 					</g>
 				))}
-			</Svg>
+			</svg>
 		)
 	}
 }
