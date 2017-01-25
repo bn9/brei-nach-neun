@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import styled from 'styled-components';
 
 import PagesStack from 'components/PagesStack';
 import PagesNav, { PagesSubNav } from 'components/PagesNav';
@@ -37,20 +38,19 @@ export default class Template extends React.Component{
 		const { pages } = site;
 		const { children } = this.props;
 		const { open } = this.state;
+		const Background = styled.span`
+			width:200%;
+			height:200%;
+			top:0;
+			left:0;
+			position:fixed;
+			background-color:#ffffff;
+			background-image:url("/peacock.jpg");
+			z-index:-1;
+			opacity:.4;
+		`
 		return (
-		  	<span
-		  		style={{overflowX:'hidden', height: '100vh'}}
-		  	>	
-		  		<span 
-		  			style={{
-		  				opacity:.4,
-		  				background: 'url("/peacock.jpg")',
-		  				width:'200%',
-		  				height:'200%',
-		  				top:0,left:0,
-		  				position:'fixed'
-		  			}}
-		  		/>
+		  	<span style={{overflowX:'hidden', height: '100vh'}}>
 		  		<PagesNav open={open}>
 		  			{ Object.keys(pages).map((page,i) => (
 		  				<PagesNavItem key={page} onClick={this.toggleNavigation} to={`/${pages[page].slug}/`}>
@@ -70,6 +70,7 @@ export default class Template extends React.Component{
 					{children}
 		    	</PagesStack>
 				<MenuButton open={open} onClick={this.toggleNavigation}/>
+				<Background/>
 		    </span>
 	    )
 	}
