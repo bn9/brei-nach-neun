@@ -6,6 +6,7 @@ import { media } from 'styles';
 
 const Section = styled.section`
 	position:relative;
+	background:#ffffff;
 	z-index:5;
 	width:100%;
 	min-height:100vh;
@@ -13,6 +14,7 @@ const Section = styled.section`
 	box-shadow:0 -1px 10px rgba(0, 0, 0, 0.1);
 `
 const Header = styled.header`
+	background:#ffffff;
 	padding:40px;
 `
 const PageWrapper = styled.span`
