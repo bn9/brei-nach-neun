@@ -44,7 +44,7 @@ export default class Template extends React.Component{
 		  		<span 
 		  			style={{
 		  				opacity:.4,
-		  				background: 'url("./peacock.jpg")',
+		  				background: 'url("peacock.jpg")',
 		  				width:'200%',
 		  				height:'200%',
 		  				top:0,left:0,
