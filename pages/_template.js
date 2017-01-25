@@ -7,6 +7,7 @@ import PagesStack from 'components/PagesStack';
 import PagesNav, { PagesSubNav } from 'components/PagesNav';
 import PagesNavItem from 'components/PagesNavItem';
 import MenuButton from 'components/MenuButton';
+import AnimatedTitle from 'components/AnimatedTitle';
 
 import site from './_site.json'
 import './styles.css'
@@ -15,13 +16,15 @@ export default class Template extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			open:false
+			open:false,
+			isLoaded:false
 		};
 		this.toggleNavigation = this.toggleNavigation.bind(this)
 		this.closeNavigation = this.closeNavigation.bind(this)
 	}
 	componentDidMount(){
 		window.addEventListener('scroll', this.closeNavigation)
+		this.setState({isLoaded:true})
 	}
 	componentWillUnmount() {
 		window.removeEventListener('scroll')
@@ -37,7 +40,7 @@ export default class Template extends React.Component{
 	render() {
 		const { pages } = site;
 		const { children } = this.props;
-		const { open } = this.state;
+		const { isLoaded, open } = this.state;
 		const Background = styled.span`
 			width:200%;
 			height:200%;
@@ -51,7 +54,7 @@ export default class Template extends React.Component{
 		`
 		return (
 		  	<span style={{overflowX:'hidden', height: '100vh'}}>
-		  		<PagesNav open={open}>
+		  		<PagesNav style={{display:isLoaded?'flex':'none'}} open={open}>
 		  			{ Object.keys(pages).map((page,i) => (
 		  				<PagesNavItem key={page} onClick={this.toggleNavigation} to={`/${pages[page].slug}/`}>
 		  					{pages[page].title}
