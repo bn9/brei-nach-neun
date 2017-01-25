@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 import PagesStack from 'components/PagesStack';
-import PagesNav from 'components/PagesNav';
+import PagesNav, { PagesSubNav } from 'components/PagesNav';
 import PagesNavItem from 'components/PagesNavItem';
 import MenuButton from 'components/MenuButton';
 
@@ -17,9 +17,21 @@ export default class Template extends React.Component{
 			open:false
 		};
 		this.toggleNavigation = this.toggleNavigation.bind(this)
+		this.closeNavigation = this.closeNavigation.bind(this)
+	}
+	componentDidMount(){
+		window.addEventListener('scroll', this.closeNavigation)
+	}
+	componentWillUnmount() {
+		window.removeEventListener('scroll')
 	}
 	toggleNavigation(){
 		this.setState({open:this.state.open?false:true});
+	}
+	closeNavigation = () => {
+		if (this.state.open) {
+			this.setState({open:false})
+		}
 	}
 	render() {
 		const { pages } = site;
@@ -45,15 +57,21 @@ export default class Template extends React.Component{
 		  					{pages[page].title}
 		  				</PagesNavItem>
 		  			))}
-		  			<PagesNavItem 
-		  				small={true}
-		  				to={'/impress/'} 
-		  				onClick={this.toggleNavigation}
-		  			>
-		  				Impressum
-		  			</PagesNavItem>
+		  			<PagesSubNav>
+			  			<PagesNavItem 
+			  				small
+			  				to={'/impress/'} 
+			  				onClick={this.toggleNavigation}
+			  				children="Impressum"
+			  			/>
+			  			<a href="https://www.bildungsspender.de/?org_id=110829003">
+				  			<PagesNavItem small
+				  				children="Bildungsspender"
+				  			/>
+				  		</a>
+		  			</PagesSubNav>
 		      	</PagesNav>
-				<PagesStack open={open}>
+				<PagesStack open={open} onClick={this.closeNavigation}>
 					{children}
 		    	</PagesStack>
 				<MenuButton open={open} onClick={this.toggleNavigation}/>

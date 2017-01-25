@@ -3,9 +3,9 @@
 .menu-button {
 	position: absolute;
 	z-index: 1000;
-	top: 30px;
-	right: 30px;
-	width: 30px;
+	top: 32px;
+	right: 32px;
+	width: 32px;
 	height: 24px;
 	padding: 0;
 	cursor: pointer;
