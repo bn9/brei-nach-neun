@@ -67,6 +67,12 @@ export default class Template extends React.Component{
 			  				onClick={this.toggleNavigation}
 			  				children="Impressum"
 			  			/>
+			  			<PagesNavItem 
+			  				small
+			  				href="https://www.bildungsspender.de/?org_id=110829003"
+			  				onClick={this.toggleNavigation}
+			  				children="Bildungsspender"
+			  			/>
 		  			</PagesSubNav>
 		      	</PagesNav>
 				<PagesStack open={open} onClick={this.closeNavigation}>

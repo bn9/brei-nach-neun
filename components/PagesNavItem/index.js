@@ -15,8 +15,13 @@ const Wrapper = styled.div`
 	`}
 `
 
-const NavLink = styled(
-	({small,...props}) => <Link {...props}/>)`
+
+
+const PagesNavItem = ({children,href,to,onClick,small}) => {
+	const LinkWrapper = props => {
+		if(to){ return <Link {...props}/>} else {return <a target="_blank"{...props}/>}
+	}
+	const NavLink = styled( LinkWrapper )`
 	font-weight: bold;
 	position: relative;
 	letter-spacing: 1px;
@@ -27,7 +32,7 @@ const NavLink = styled(
 	&:focus{
 		color:#F67280
 	}
-	${props => props.small ? `
+	${small ? `
 		font-size:14px;
 		color: #C06C84;
 	` : `
@@ -48,14 +53,12 @@ const NavLink = styled(
 		transform: scale3d(1, 1, 1);
 	}
 `
-
-const PagesNavItem = ({children,to,onClick,small}) => {
 	return(
 		<Wrapper small={small}>
 			<NavLink
-				small={small}
 				onClick={onClick}
-				to={to}>
+				to={to}
+				href={href}>
 				{children}
 			</NavLink>
 		</Wrapper>
