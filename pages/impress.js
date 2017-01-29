@@ -93,6 +93,11 @@ class Impress extends Component{
 			        		</div>
 			      		</GoogleMap>
 		      		</div>
+		      		<footer style={{width:'100%',textAlign:'center'}}>
+		      			<a href="https://www.netlify.com">
+						  	<img src="https://www.netlify.com/img/global/badges/netlify-light.svg"/>
+						</a>
+		      		</footer>
 		      	</ImpressWrapper>
 			</Page>
 		)
