@@ -2,156 +2,708 @@
   "25089": {
     "id": "25089",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:38:13.169Z",
+    "updatedAt": "2016-12-23T22:38:13.252Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104347-Abstract-Shapes-Pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104347-Abstract-Shapes-Pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 60255,
       "width": 400,
       "height": 400,
-      "url": "https://dato-images.imgix.net/562/1482104347-Abstract-Shapes-Pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104347-Abstract-Shapes-Pattern.jpg?"
     },
     "title": "Abstract1"
   },
   "25090": {
     "id": "25090",
     "itemType": "background",
-    "updatedAt": "2016-12-18T23:39:22.971Z",
+    "updatedAt": "2016-12-23T22:38:13.247Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104360-Breakfast-pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104360-Breakfast-pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 22895,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104360-Breakfast-pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104360-Breakfast-pattern.jpg?"
     },
     "title": null
   },
   "25091": {
     "id": "25091",
     "itemType": "background",
-    "updatedAt": "2016-12-18T23:39:31.628Z",
+    "updatedAt": "2016-12-23T22:38:13.241Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104369-Camping.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104369-Camping.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 9156,
       "width": 200,
       "height": 200,
-      "url": "https://dato-images.imgix.net/562/1482104369-Camping.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104369-Camping.jpg?"
     },
     "title": null
   },
   "25092": {
     "id": "25092",
     "itemType": "background",
-    "updatedAt": "2016-12-18T23:39:46.212Z",
+    "updatedAt": "2016-12-23T22:38:13.236Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104379-Deep-Sea-Paisley.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104379-Deep-Sea-Paisley.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 121456,
       "width": 500,
       "height": 500,
-      "url": "https://dato-images.imgix.net/562/1482104379-Deep-Sea-Paisley.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104379-Deep-Sea-Paisley.jpg?"
     },
     "title": null
   },
   "25093": {
     "id": "25093",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:38:05.220Z",
+    "updatedAt": "2016-12-23T22:38:13.230Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104398-Drip-Pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104398-Drip-Pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 17319,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104398-Drip-Pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104398-Drip-Pattern.jpg?"
     },
     "title": "Raindrops"
   },
   "25094": {
     "id": "25094",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:37:46.557Z",
+    "updatedAt": "2016-12-23T22:38:13.224Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104412-Foxes-Silhouette.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104412-Foxes-Silhouette.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 17817,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104412-Foxes-Silhouette.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104412-Foxes-Silhouette.jpg?"
     },
     "title": "Fox"
   },
   "25095": {
     "id": "25095",
     "itemType": "background",
-    "updatedAt": "2016-12-18T23:40:29.738Z",
+    "updatedAt": "2016-12-23T22:38:13.216Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104426-Ikatish.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104426-Ikatish.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 34102,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104426-Ikatish.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104426-Ikatish.jpg?"
     },
     "title": null
   },
   "25096": {
     "id": "25096",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:38:22.056Z",
+    "updatedAt": "2016-12-23T22:38:13.211Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104440-Paint-Daub-Pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104440-Paint-Daub-Pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 134545,
       "width": 500,
       "height": 500,
-      "url": "https://dato-images.imgix.net/562/1482104440-Paint-Daub-Pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104440-Paint-Daub-Pattern.jpg?"
     },
     "title": "Abstract2"
   },
   "25097": {
     "id": "25097",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:36:50.716Z",
+    "updatedAt": "2016-12-23T22:38:13.205Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104454-peacock.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104454-peacock.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 34930,
       "width": 400,
       "height": 400,
-      "url": "https://dato-images.imgix.net/562/1482104454-peacock.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104454-peacock.jpg?"
     },
     "title": "Peacock"
   },
   "25098": {
     "id": "25098",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:36:33.259Z",
+    "updatedAt": "2016-12-23T22:38:13.198Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104471-Vegetable-pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104471-Vegetable-pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 21071,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104471-Vegetable-pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104471-Vegetable-pattern.jpg?"
     },
     "title": "Vegetables"
   },
   "25099": {
     "id": "25099",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:36:26.684Z",
+    "updatedAt": "2016-12-23T22:38:13.192Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104484-Yay-Whales-Pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104484-Yay-Whales-Pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 22675,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104484-Yay-Whales-Pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104484-Yay-Whales-Pattern.jpg?"
     },
     "title": "Wale"
   },
   "25100": {
     "id": "25100",
     "itemType": "background",
-    "updatedAt": "2016-12-19T00:36:20.917Z",
+    "updatedAt": "2016-12-23T22:38:13.185Z",
+    "seoMetaTags": [
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "article:modified_time",
+          "content": "2016-12-23T22:38:13Z"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:locale",
+          "content": "de_DE"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:type",
+          "content": "article"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "property": "og:image",
+          "content": "https://www.datocms-assets.com/562/1482104497-Yummy-Food-Pattern.jpg?"
+        }
+      },
+      {
+        "tagName": "meta",
+        "attributes": {
+          "name": "twitter:image",
+          "content": "https://www.datocms-assets.com/562/1482104497-Yummy-Food-Pattern.jpg?"
+        }
+      }
+    ],
     "img": {
       "format": "jpg",
       "size": 36138,
       "width": 300,
       "height": 300,
-      "url": "https://dato-images.imgix.net/562/1482104497-Yummy-Food-Pattern.jpg?auto=compress%2Cformat&ch=DPR%2CWidth"
+      "title": null,
+      "alt": null,
+      "url": "https://www.datocms-assets.com/562/1482104497-Yummy-Food-Pattern.jpg?"
     },
     "title": "Food"
   }

@@ -8,16 +8,23 @@ Der Kinderladen "Brei nach Neun" ist eine Elterninitiative und ein eingetragener
 
 Der Kinderladen finanziert sich über einen Leistungsvertrag mit dem Senat, über Elternbeiträge und eventuelle Zusatzbeiträge. Von den Einnahmen müssen gezahlt werden: Gehälter, Miete, Strom, Versicherung, Spiel- und Bastelmaterial, Renovierungsmaterial, Einrichtungsgegenstände, Küchengeräte und Essen.
 
-Der Arbeitsbereich der Eltern umfasst das Wäschewaschen einmal wöchentlich im Wechsel, Elterndienste bei Urlaub oder Krankheit der Erzieherinnen, ein- bis zweimal im Monat Zubereitung des Frühstücks, die Instandhaltung der Räumlichkeiten, bei Bedarf Renovierungsarbeiten, Werbung und Aufnahme neuer Kinder, sowie regelmäßige Elternabende mit pädagogischen und organisatorischen Inhalten.
+Der Arbeitsbereich der Eltern umfasst das Wäschewaschen einmal wöchentlich im Wechsel, Übernahme des Montagsdienstes (die Erzieherinnen sind in der Zeit von 14.45 - 17:00 Uhr in ihrer Teambesprechung, die Eltern übernehmen die Kinder),  Elterndienste bei Urlaub oder Krankheit der Erzieherinnen, ein- bis zweimal im Monat Zubereitung des Frühstücks, die Instandhaltung der Räumlichkeiten, bei Bedarf Renovierungsarbeiten, sowie regelmäßige Elternabende mit pädagogischen und organisatorischen Inhalten.
 
 Bei Bedarf finden Elternstammtische statt, die ein Kennenlernen der Eltern untereinander und einen Austausch zu verschiedenen Themen ermöglichen.
 
-Ansprechpartner:
-Elena 
-Tel 030 - 782 83 19
+
+* * **Ansprechpartner Erzieher:**
+Elena Manhertz |
+Tel 030 - 782 83 19 | 
 breinachneun@gmail.com
-Träger
-EKT Brei nach Neun e.V.
-Leuthener Straße 8
-10829 Berlin
+
+* * **Ansprechpartner Vorstand:**
+Imke Winestock und Lhea Nitsche | 
+info@brei-nach-neun.de
+
+
+* * **Träger:**
+EKT Brei nach Neun e.V. |
+Leuthener Straße 8 | 
+10829 Berlin | 
 Tel. 030 - 782 83 19

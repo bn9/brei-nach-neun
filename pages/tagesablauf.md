@@ -14,11 +14,11 @@ Um 9.00 Uhr beginnen wir unseren Morgenkreis, an dem alle Kinder teilnehmen soll
 
 In dieser "Runde" ist Gelegenheit sich zu begrüßen, sich voneinander zu erzählen, einander zuzuhören und durch gemeinsames Zählen herauszufinden, welche Kinder heute anwesend sind, wer fehlt, krank oder im Urlaub ist. Montags haben hier alle Kinder die Möglichkeit, von ihren Erlebnissen am Wochenende zu erzählen. Es werden Lieder gesungen, Kreisspiele gespielt, Konflikte besprochen und vieles mehr. Der Morgenkreis wird jeweils von einer Erzieherin geplant und geleitet und dauert etwa eine halbe Stunde.
 
-Im Anschluss daran gibt es ein gesundes Frühstück, welches abwechselnd von den Eltern und den Erzieherinnen vorbereitet wird. Nach dem Frühstück werden gemeinsam die Zähne geputzt.
+Im Anschluss daran gibt es ein gesundes Frühstück, welches von den Eltern vorbereitet wird. Nach dem Frühstück werden gemeinsam die Zähne geputzt.
 
 Der weitere Vormittag wird, je nach Planung, geprägt durch das Freispiel der Kinder, durch gezielte Angebote, Spielplatzbesuche oder durch kleinere und größere Ausflüge mit Bus und S-Bahn. Wir gehen jeden Tag nach draußen, machen Spaziergänge durch den Park oder besuchen umliegende Spielplätze. Je nach Entfernung und Tagesform können die Kinder auch mit ihren Fahrrädern (nur mit Helm!) fahren.
 
-Ab ca. 12.30 Uhr gibt es Mittagessen für die Jüngsten ab 13.00 Uhr Mittagessen für die älteren Kinder, das von einer Köchin zubereitet wird. Die Zutaten für das Mittagessen werden ausschließlich im nahe gelegenen Bioladen eingekauft. Fleisch wird nur selten angeboten. Auch nach dem Mittagessen werden Zähne geputzt.
+Ab ca. 12.30 Uhr gibt es Mittagessen, das von einer Köchin zubereitet wird. Die Zutaten für das Mittagessen werden ausschließlich im nahe gelegenen Bioladen eingekauft. Fleisch wird nur selten angeboten. Auch nach dem Mittagessen werden Zähne geputzt.
 
 "Schlafkinder" werden, je nach Schlafbedürfnis, entweder vor oder nach dem Mittagessen zu Bett gebracht. Für alle anderen Kinder wird eine Ruhepause "verordnet". In dieser Ruhepause werden Bücher gelesen, ruhigere Spiele gespielt, gemalt oder gebastelt.
 
@@ -29,5 +29,6 @@ Geplante Angebote finden entweder für die gesamte Gruppe, für einen Teil der G
 Die Angebote können auch themenorientiert sein. Hier werden projektbezogen Themen, die die Kinder aktuell beschäftigen, aufgegriffen und durch verschiedene Methoden vertieft.
 
 Dienstags gehen wir in eine nahe gelegene Halle zum Turnen, angeleitet im Wechsel der Erzieher/innen.
+Momentan wird die Sportstunde von einem externen Trainer durchgeführt. 
 
 Mittwochs werden größere Ausflüge unternommen.
