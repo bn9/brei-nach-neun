@@ -3,7 +3,9 @@ import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Page } from '../components/Page'
 
-export const withPageTemplate = (Component: React.ComponentType) => props => {
+export const withPageTemplate = <P extends { pageContext: { title: string } }>(
+  Component: React.ComponentType<P>
+) => (props: P) => {
   const data = useStaticQuery(graphql`
     {
       site {

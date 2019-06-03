@@ -38,38 +38,8 @@ export const Layout = ({ location, ...props }) => {
     closeNavigation // callback
   )
 
-  console.log(props)
-
   return (
-    <span style={{ overflowX: 'hidden', height: '100vh' }}>
-      <Nav style={{ display: loaded ? 'flex' : 'none' }} open={open}>
-        {Object.values(pages).map(({ slug, title }, i) => (
-          <NavItem key={i} onClick={toggleNavigation} to={`/${slug}/`}>
-            {title}
-          </NavItem>
-        ))}
-        <NavItem onClick={toggleNavigation} to={`/photos/`}>
-          Photos
-        </NavItem>
-        <SubNav>
-          <NavItem
-            small
-            to={'/impressum/'}
-            onClick={toggleNavigation}
-            children="Impressum"
-          />
-          <NavItem
-            small
-            href="https://www.bildungsspender.de/?org_id=110829003"
-            onClick={toggleNavigation}
-            children="Bildungsspender"
-          />
-        </SubNav>
-      </Nav>
-      <PagesStack open={open} onClick={closeNavigation}>
-        {props.children}
-      </PagesStack>
-      <MenuButton open={open} onClick={toggleNavigation} />
+    <>
       <Background
         {...{
           location,
@@ -77,6 +47,32 @@ export const Layout = ({ location, ...props }) => {
           title: props.pageContext.background || undefined
         }}
       />
-    </span>
+      <section
+        style={{ overflowX: 'hidden', minHeight: `100vh`, maxHeight: !open ? `100vh` : undefined }}>
+        <Nav style={{ display: loaded ? 'flex' : 'none' }} open={open}>
+          {Object.values(pages).map(({ slug, title }, i) => (
+            <NavItem key={i} onClick={toggleNavigation} to={`/${slug}/`}>
+              {title}
+            </NavItem>
+          ))}
+          <NavItem onClick={toggleNavigation} to={`/photos/`}>
+            Photos
+          </NavItem>
+          <SubNav>
+            <NavItem small to={'/impressum/'} onClick={toggleNavigation} children='Impressum' />
+            <NavItem
+              small
+              href='https://www.bildungsspender.de/?org_id=110829003'
+              onClick={toggleNavigation}
+              children='Bildungsspender'
+            />
+          </SubNav>
+        </Nav>
+        <PagesStack open={open} onClick={open ? closeNavigation : undefined}>
+          {props.children}
+        </PagesStack>
+        <MenuButton open={open} onClick={toggleNavigation} />
+      </section>
+    </>
   )
 }

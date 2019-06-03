@@ -5,7 +5,8 @@ import { withPageTemplate } from '../templates/page'
 const IndexPage = ({
   data: {
     datoCmsStart: {
-      childDatoCmsStartBodyTextNode: { body }
+      body
+      // childDatoCmsStartBodyTextNode: { body }
     }
   }
 }) => <article dangerouslySetInnerHTML={{ __html: body }} />
@@ -16,9 +17,10 @@ export const query = graphql`
   {
     datoCmsStart {
       id
-      childDatoCmsStartBodyTextNode {
-        body
-      }
+      body
+      # childDatoCmsStartBodyTextNode {
+      #   body
+      # }
     }
   }
 `

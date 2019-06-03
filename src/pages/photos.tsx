@@ -6,7 +6,19 @@ import Gallery from 'react-photo-gallery'
 
 const ImageComponent = ({ fluid }) => <Image {...{ fluid }} />
 
-const PhotoPage = ({ data: { site, allDatoCmsPhoto } }) => {
+interface PhotoPageProps {
+  pageContext: any
+  data: {
+    site: { siteMetadata: { siteTitle: string } }
+    allDatoCmsPhoto: {
+      edges: {
+        node: { id: string; img: { width: number; height: number; fluid: any } }
+      }[]
+    }
+  }
+}
+
+const PhotoPage: React.SFC<PhotoPageProps> = ({ data: { site, allDatoCmsPhoto } }) => {
   const photos = allDatoCmsPhoto.edges.map(({ node: { id: key, img } }) => ({
     key,
     src: img.fluid.src,
@@ -15,14 +27,22 @@ const PhotoPage = ({ data: { site, allDatoCmsPhoto } }) => {
     fluid: img.fluid
   }))
   return (
-    <React.Fragment>
+    <>
       <h1>Photos</h1>
-      <Gallery {...{ photos }} />
-    </React.Fragment>
+      {allDatoCmsPhoto.edges.map(({ node: { id: key, img: { fluid } } }) => (
+        <Image {...{ key, fluid }} />
+      ))}
+    </>
   )
+  // return (
+  //   <React.Fragment>
+  //     <h1>Photos</h1>
+  //     <Gallery {...{ photos }} />
+  //   </React.Fragment>
+  // )
 }
 
-export default withPageTemplate(PhotoPage)
+export default withPageTemplate<PhotoPageProps>(PhotoPage)
 
 export const query = graphql`
   {
@@ -39,7 +59,7 @@ export const query = graphql`
           img {
             width
             height
-            fluid(maxWidth: 1200) {
+            fluid(maxWidth: 800, imgixParams: { fm: "jpg", auto: "compress" }) {
               ...GatsbyDatoCmsFluid
             }
           }

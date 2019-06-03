@@ -1,23 +1,9 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import AnimatedTitle from './AnimatedTitle'
 import styled from 'styled-components'
 import { media } from '../styles'
+import useEventListener from 'use-event-listener'
 
-const Section = styled.section`
-  position: relative;
-  background: #ffffff;
-  z-index: 5;
-  width: 100%;
-  min-height: 100vh;
-  pointer-events: auto;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-`
-const Header = styled.header`
-  background: #ffffff;
-  padding: 40px;
-`
-const PageWrapper = styled.span`
+export const Page = styled.section`
   width:100%;
   margin:auto;
   background:#ffffff;
@@ -36,13 +22,7 @@ const PageWrapper = styled.span`
     padding:16px 32px;
   `}
 `
-export const Page: React.SFC<{}> = ({ children }) => (
-  <Section>
-    <Header>
-      <Link to="/">
-        <AnimatedTitle />
-      </Link>
-    </Header>
-    <PageWrapper>{children}</PageWrapper>
-  </Section>
-)
+
+// export const Page: React.SFC<{}> = ({ children }) => {
+//   return <PageWrapper {...{ ref }}>{children}</PageWrapper>
+// }

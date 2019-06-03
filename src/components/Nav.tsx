@@ -19,8 +19,7 @@ export const Nav = styled.nav`
   background: rgba(0, 0, 0, 0);
   transition: transform 1.2s, opacity 1.2s;
   transition-timing-function: cubuc-bezier(0.2, 1, 0.3, 1);
-  transform: ${props =>
-    props.open ? 'translate3d(0, 0, 0)' : 'translate3d(0, 150px, 0)'};
+  transform: ${props => (props.open ? 'translate3d(0, 0, 0)' : 'translate3d(0, 150px, 0)')};
 
   flex-wrap: wrap;
   flex-direction: row;
@@ -57,8 +56,8 @@ const Wrapper = styled.div`
   `}
 `
 
-const NavLink = styled(props =>
-  props.to ? <Link {...props} /> : <a target="_blank" {...props} />
+const NavLink = styled(({ small, ...props }) =>
+  props.to ? <Link {...props} /> : <a target='_blank' {...props} />
 )`
   font-weight: bold;
   position: relative;

@@ -1,9 +1,10 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { media } from '../styles'
+import { Header } from './Header'
+import useEventListener from 'use-event-listener'
 
-const Section = styled.section`
-  z-index: 100;
+const Wrapper = styled.section`
   pointer-events: none;
   perspective: 1200px;
   perspective-origin: 50% 0%;
@@ -11,7 +12,8 @@ const Section = styled.section`
     perspective-origin: 50% 100%;
   `}
 `
-const Figure = styled.figure`
+const Section = styled.section`
+  pointer-events: all;
   margin: 0 auto;
   background: #ffffff;
   cursor: ${({ open }) => (open ? 'pointer' : 'default')};
@@ -20,12 +22,19 @@ const Figure = styled.figure`
     return open ? `translate3d(0, ${y}, -250px)` : 'translate3d(0, 0, 0)'
   }};
   transition: ${({ duration = 500 }) => duration}ms ease;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
 `
 
 export const PagesStack = ({ onClick, open, ...props }) => {
   return (
-    <Section>
-      <Figure {...{ onClick, open }}>{props.children}</Figure>
-    </Section>
+    <Wrapper>
+      <Section {...{ onClick, open }}>
+        <Header />
+        {props.children}
+      </Section>
+    </Wrapper>
   )
 }

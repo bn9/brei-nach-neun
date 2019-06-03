@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import styles from './styles.css'
 import anime from 'animejs'
 import Phrase from './animate.js'
@@ -22,7 +22,7 @@ class AnimatedTitle extends React.Component {
 				delay: 10,
 				properties: {
 					scale: {
-						value: function() {
+						value: function () {
 							return [0, 1]
 						},
 						duration: 900,
@@ -56,7 +56,7 @@ class AnimatedTitle extends React.Component {
 						key={i}
 						className={`letter letter--${i + 1}${
 							item.className ? ' ' + item.className : ''
-						}`}>
+							}`}>
 						<g className="letter__part">
 							{item['c'].map((color, i) => (
 								<Path

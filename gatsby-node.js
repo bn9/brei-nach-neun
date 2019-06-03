@@ -10,8 +10,9 @@ exports.createPages = ({ graphql, actions }) => {
           nodes {
             slug
             title
-            body: childDatoCmsPageBodyTextNode {
-              md: childMarkdownRemark {
+            body
+            bodyNode {
+              childMarkdownRemark {
                 html
               }
             }
@@ -26,8 +27,10 @@ exports.createPages = ({ graphql, actions }) => {
         ({
           slug,
           title,
-          body: {
-            md: { html: body }
+          bodyNode: {
+            childMarkdownRemark: {
+              html: body
+            }
           },
           background: { title: background }
         }) => {
