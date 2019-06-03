@@ -1,19 +1,23 @@
 import * as React from 'react'
 import { default as AnimatedTitle } from './AnimatedTitle'
-import { Link } from 'gatsby'
+import { navigate } from 'gatsby'
 import styled from 'styled-components'
+import { media } from '../styles'
 
 const Wrapper = styled.header`
   background: #ffffff;
-  padding: 40px;
+  box-sizing: border-box;
+  ${media.desktop`
+    padding:40px;
+    height: 160px;
+  `}
+  ${media.tablet`padding:20px;`}
 `
 
 export const Header = () => {
   return (
     <Wrapper>
-      <Link to='/'>
-        <AnimatedTitle />
-      </Link>
+      <AnimatedTitle onClick={() => navigate('/')} />
     </Wrapper>
   )
 }

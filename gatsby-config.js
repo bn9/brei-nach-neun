@@ -7,6 +7,12 @@ module.exports = {
     siteTitle: 'Brei Nach Neun e.V.'
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: false
+      }
+    },
     `gatsby-plugin-typescript`,
     {
       resolve: `gatsby-plugin-typography`,

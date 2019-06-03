@@ -47,7 +47,7 @@ export const Layout = ({ location, ...props }) => {
           title: props.pageContext.background || undefined
         }}
       />
-      <section
+      <main
         style={{ overflowX: 'hidden', minHeight: `100vh`, maxHeight: !open ? `100vh` : undefined }}>
         <Nav style={{ display: loaded ? 'flex' : 'none' }} open={open}>
           {Object.values(pages).map(({ slug, title }, i) => (
@@ -72,7 +72,7 @@ export const Layout = ({ location, ...props }) => {
           {props.children}
         </PagesStack>
         <MenuButton open={open} onClick={toggleNavigation} />
-      </section>
+      </main>
     </>
   )
 }

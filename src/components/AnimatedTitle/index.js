@@ -46,8 +46,7 @@ class AnimatedTitle extends React.Component {
 	}
 	render() {
 		return (
-			<svg
-				style={{ maxWidth: 'calc(1336px/2.5)', maxHeight: 'calc(200px/2.5)' }}
+			<Svg
 				{...this.props}
 				viewBox="0 0 1336 200"
 				className="letters letters--effect-1">
@@ -71,7 +70,7 @@ class AnimatedTitle extends React.Component {
 						</g>
 					</g>
 				))}
-			</svg>
+			</Svg>
 		)
 	}
 }
