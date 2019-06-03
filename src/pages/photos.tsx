@@ -2,9 +2,6 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import { withPageTemplate } from '../templates/page'
-import Gallery from 'react-photo-gallery'
-
-const ImageComponent = ({ fluid }) => <Image {...{ fluid }} />
 
 interface PhotoPageProps {
   pageContext: any
@@ -34,12 +31,6 @@ const PhotoPage: React.SFC<PhotoPageProps> = ({ data: { site, allDatoCmsPhoto } 
       ))}
     </>
   )
-  // return (
-  //   <React.Fragment>
-  //     <h1>Photos</h1>
-  //     <Gallery {...{ photos }} />
-  //   </React.Fragment>
-  // )
 }
 
 export default withPageTemplate<PhotoPageProps>(PhotoPage)
